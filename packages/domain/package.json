@@ -1,0 +1,7 @@
+{
+  "name": "@tekisho/domain",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./events/platform-event.ts",
+  "types": "./events/platform-event.ts"
+}

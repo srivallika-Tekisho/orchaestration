@@ -1,0 +1,11 @@
+{
+  "name": "@tekisho/worker",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/bootstrap-pgboss.ts",
+  "types": "./src/bootstrap-pgboss.ts",
+  "scripts": {
+    "bootstrap:pgboss": "tsx src/bootstrap-pgboss.ts",
+    "bootstrap:checkpointer": "tsx src/bootstrap-checkpointer.ts"
+  }
+}

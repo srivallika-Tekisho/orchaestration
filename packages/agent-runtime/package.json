@@ -1,0 +1,7 @@
+{
+  "name": "@tekisho/agent-runtime",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/tools/tool-registry.ts",
+  "types": "./src/tools/tool-registry.ts"
+}

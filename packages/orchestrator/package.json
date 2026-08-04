@@ -1,0 +1,7 @@
+{
+  "name": "@tekisho/orchestrator",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/run-factory.ts",
+  "types": "./src/run-factory.ts"
+}

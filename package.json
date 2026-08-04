@@ -1,0 +1,25 @@
+{
+  "name": "@tekisho/orchestration",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@langchain/langgraph": "^1.4.9",
+    "@langchain/langgraph-checkpoint-postgres": "^1.0.4",
+    "dotenv": "^17.4.2",
+    "fastify": "*",
+    "pg": "*",
+    "pg-boss": "^12.27.0",
+    "pino": "*",
+    "uuid": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "tsx": "*",
+    "typescript": "*",
+    "vitest": "*"
+  }
+}
