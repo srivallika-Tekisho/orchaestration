@@ -7,5 +7,11 @@
   "scripts": {
     "bootstrap:pgboss": "tsx src/bootstrap-pgboss.ts",
     "bootstrap:checkpointer": "tsx src/bootstrap-checkpointer.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }

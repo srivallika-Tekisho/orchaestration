@@ -8,7 +8,7 @@
   "dependencies": {
     "@langchain/langgraph": "^1.4.9",
     "@langchain/langgraph-checkpoint-postgres": "^1.0.4",
-    "dotenv": "^17.4.2",
+    "dotenv": "^16.4.7",
     "fastify": "*",
     "pg": "*",
     "pg-boss": "^12.27.0",

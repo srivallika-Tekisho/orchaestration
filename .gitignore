@@ -1,6 +1,11 @@
 # Dependencies
 node_modules/
 
+# Python virtual environment
+env/
+venv/
+.venv/
+
 # Environment
 .env
 .env.*
