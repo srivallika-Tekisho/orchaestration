@@ -2,6 +2,9 @@ export interface EventInput {
   event_id: string;
   event_type: string;
   aggregate_id: string;
+  aggregate_type: string;
+  organization_id: string;
+  correlation_id: string;
   payload: Record<string, any>;
 }
 
