@@ -2,6 +2,21 @@
   "name": "@tekisho/orchestrator",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "main": "./src/run-factory.ts",
-  "types": "./src/run-factory.ts"
+  "types": "./src/run-factory.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^1.4.9",
+    "uuid": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "@types/pg": "^8.20.4",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^7.0.2"
+  }
 }
