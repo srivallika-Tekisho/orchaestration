@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 export default defineConfig({
   test: {
-    include: ["apps/worker/src/**/*.test.ts"],
+    include: ["src/**/*.test.ts"],
     setupFiles: [resolve(__dirname, "vitest.setup.ts")],
   },
 });

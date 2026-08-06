@@ -8,7 +8,9 @@
   "scripts": {
     "bootstrap:pgboss": "tsx src/bootstrap-pgboss.ts",
     "bootstrap:checkpointer": "tsx src/bootstrap-checkpointer.ts",
-    "bootstrap:runtime": "npm run bootstrap:pgboss && npm run bootstrap:checkpointer"
+    "bootstrap:runtime": "npm run bootstrap:pgboss && npm run bootstrap:checkpointer",
+    
+  "test": "vitest run"
   },
   "devDependencies": {
     "@types/pg": "^8.20.4",
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "@tekisho/domain": "*",
+    "@tekisho/orchestrator": "*",
     "dotenv": "^16.4.7",
     "pg": "*",
     "pg-boss": "^12.27.0"
