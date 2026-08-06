@@ -2,16 +2,22 @@
   "name": "@tekisho/worker",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "main": "./src/bootstrap-pgboss.ts",
   "types": "./src/bootstrap-pgboss.ts",
   "scripts": {
     "bootstrap:pgboss": "tsx src/bootstrap-pgboss.ts",
-    "bootstrap:checkpointer": "tsx src/bootstrap-checkpointer.ts"
+    "bootstrap:checkpointer": "tsx src/bootstrap-checkpointer.ts",
+    "bootstrap:runtime": "npm run bootstrap:pgboss && npm run bootstrap:checkpointer"
   },
   "devDependencies": {
+    "@types/pg": "^8.20.4",
     "tsx": "^4.23.5"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "@tekisho/domain": "*",
+    "dotenv": "^16.4.7",
+    "pg": "*",
+    "pg-boss": "^12.27.0"
   }
 }
